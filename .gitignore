@@ -1,0 +1,16 @@
+# Raw and processed data — see data/README.md for how to obtain these
+data/*.csv
+!data/README.md
+
+# Trained models and pickled artifacts (regenerate by running the notebook)
+*.pkl
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
